@@ -1,0 +1,29 @@
+##################################
+# Terraform
+##################################
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+tfplan
+
+##################################
+# Sensitive Variables
+##################################
+terraform.tfvars
+*.tfvars
+*.auto.tfvars
+
+##################################
+# CLI config
+##################################
+.terraformrc
+terraform.rc
+
+##################################
+# OS / Editor
+##################################
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
